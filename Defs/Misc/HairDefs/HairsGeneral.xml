@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HairDef>
+        <defName>UEHairBun</defName>
+        <label>Hair Bun</label>
+        <hairGender>Male</hairGender>
+        <texPath>Things/Wroonia/Hairs/UEHairBun</texPath>
+		<hairTags>
+		    <li>TGwrooniahair</li>
+		</hairTags>
+    </HairDef>
+
+</Defs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<FactionDef>
+        <defName>WrooniaPlayerColony</defName>
+        <label>Wroonia Arrivals</label>
+        <description>Wroonia Outpost Start</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>Wroonia</basicMemberKind>
+        <pawnSingular>colonist</pawnSingular>
+        <pawnsPlural>colonists</pawnsPlural>
+        <techLevel>Spacer</techLevel>
+	    <backstoryCategories>
+            <li>Wroonia_Backstory</li>
+        </backstoryCategories>
+		<homeIconPath>World/DefaultFactionBase</homeIconPath>
+        <expandingIconTexture>World/Expanding/WrooniaFactionBase</expandingIconTexture>
+        <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Urban</li>
+		    <li>TGwrooniahair</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+    </FactionDef>
+
+</Defs>
+  
