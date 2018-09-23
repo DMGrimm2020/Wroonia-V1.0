@@ -2,7 +2,7 @@
 <Defs>
 
     <HairDef>
-        <defName> HalnoHairBun</defName>
+        <defName>HalnoHairBun</defName>
         <label>Hair Bun</label>
         <hairGender>Male</hairGender>
         <texPath>Things/Wroonia/Hairs/HalnoHairBun</texPath>
