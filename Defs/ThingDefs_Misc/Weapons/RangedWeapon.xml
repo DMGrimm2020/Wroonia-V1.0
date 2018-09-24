@@ -9,6 +9,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/TGGL-77BlasterPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
@@ -81,6 +82,7 @@
         <graphicData>
             <texPath>Things/Item/Projectile/TGBlueLaser</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <projectile>
             <damageDef>Burn</damageDef>

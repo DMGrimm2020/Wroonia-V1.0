@@ -8,6 +8,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGSecurityBaton</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Spacer</techLevel>
         <smeltable>true</smeltable>
@@ -68,6 +69,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGLeftVibroknuckler</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Spacer</techLevel>
         <costList>
@@ -121,6 +123,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGRightVibroknuckler</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Spacer</techLevel>
         <costList>
@@ -174,6 +177,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGStickStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Neolithic</techLevel>
         <costList>
@@ -229,6 +233,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGPlaneStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Neolithic</techLevel>
         <costList>
@@ -285,6 +290,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGSpear</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Neolithic</techLevel>
         <costStuffCount>5</costStuffCount>
@@ -358,6 +364,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGFarmerStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Neolithic</techLevel>
         <costList>
@@ -427,6 +434,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/TGSpeakerStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
         <techLevel>Neolithic</techLevel>
         <costList>
