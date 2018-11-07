@@ -12,8 +12,7 @@
     </backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <apparelTags>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
+      <li>Uniform</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.70</skipChance>
@@ -70,12 +69,12 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
       <li>MedievalMeleeBasic</li>
     </weaponTags>
     <weaponMoney>
-      <min>65</min>
-      <max>250</max>
+      <min>500</min>
+      <max>600</max>
     </weaponMoney>
     <apparelMoney>
       <min>200</min>
@@ -103,20 +102,21 @@
       <max>2</max>
     </gearHealthRange>
     <apparelTags>
-      <li>IndustrialMilitaryBasic</li>
+      <li>Ensign</li>
       <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
       <min>400</min>
-      <max>600</max>
+      <max>1200</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
+      <li>Baton</li>
     </weaponTags>
     <weaponMoney>
-      <min>250</min>
-      <max>400</max>
+      <min>500</min>
+      <max>600</max>
     </weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>
@@ -141,24 +141,21 @@
     </gearHealthRange>
     <itemQuality>Normal</itemQuality>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
     </weaponTags>
     <weaponMoney>
-      <min>200</min>
-      <max>200</max>
+      <min>500</min>
+      <max>600</max>
     </weaponMoney>
     <apparelMoney>
       <min>400</min>
-      <max>600</max>
+      <max>1000</max>
     </apparelMoney>
     <apparelTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
+      <li>Ensign</li>
+      <li>Lieutenant</li>
       <li>BeltDefensePop</li>
     </apparelTags>
-    <apparelRequired>
-      <li>Apparel_BowlerHat</li>
-    </apparelRequired>
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>
       <min>600</min>
@@ -185,23 +182,20 @@
     </gearHealthRange>
     <itemQuality>Excellent</itemQuality>
     <weaponMoney>
-      <min>200</min>
-      <max>200</max>
+      <min>500</min>
+      <max>1000</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
     </weaponTags>
     <apparelMoney>
       <min>700</min>
-      <max>1200</max>
+      <max>1500</max>
     </apparelMoney>
     <apparelTags>
-      <li>IndustrialMilitaryBasic</li>
+      <li>Lieutenant</li>
       <li>BeltDefensePop</li>
     </apparelTags>
-    <apparelRequired>
-      <li>Apparel_BowlerHat</li>
-    </apparelRequired>
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>
       <min>600</min>

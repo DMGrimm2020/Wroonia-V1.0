@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--== Tier 1 ==-->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>Apparel_ChestTier1Armor</defName>
+        <label>Chest Tier 1 Armor</label>
+        <description>Chest Tier 1 Armor.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Item/Equipment/Armor/ChestTier1Armor/TGChestTier1ArmorDisplay</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Mass>4</Mass>
+            <Flammability>0.6</Flammability>
+            <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.27</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.12</MoveSpeed>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <costList>
+            <Steel>90</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Item/Equipment/Armor/ChestTier1Armor/TGChestTier1Armor</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>IndustrialMilitaryBasic</li>
+                <li>Imperial</li>
+                <li>ChestTier1Armor</li>
+                <li>Ensign</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!--== Tier 2 ==-->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>Apparel_ChestTier2Armor</defName>
+        <label>Chest Tier 2 Armor</label>
+        <description>Chest Tier 2 Armor.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Item/Equipment/Armor/ChestTier2Armor/TGChestTier2ArmorDisplay</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Mass>7</Mass>
+            <Flammability>0.6</Flammability>
+            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.27</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <EquipDelay>5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.12</MoveSpeed>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Item/Equipment/Armor/ChestTier2Armor/TGChestTier2Armor</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>IndustrialMilitaryBasic</li>
+                <li>Imperial</li>
+                <li>ChestTier2Armor</li>
+                <li>Lieutenant</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

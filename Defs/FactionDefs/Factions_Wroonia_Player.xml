@@ -29,7 +29,7 @@
 		</hairTags>
 		<apparelStuffFilter>
 			<thingDefs>
-				<li>Synthread</li>
+				<li>Cloth</li>
 			</thingDefs>
 		</apparelStuffFilter>
     </FactionDef>

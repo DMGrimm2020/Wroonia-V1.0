@@ -30,6 +30,7 @@
         <weaponTags>
             <li>MedievalMeleeDecent</li>
             <li>MedievalShieldValidSidearm</li>
+            <li>Baton</li>
         </weaponTags>
         <tools>
             <li>
@@ -62,15 +63,83 @@
         </comps>
 	</ThingDef>
   
-    <ThingDef ParentName="BaseMeleeWeapon">
-        <defName>TGLeftVibroknuckler</defName>
-		<label>left vibroknuckler</label>
-		<description>left vibroknuckler</description>
+    <ThingDef ParentName="BaseMeleeWeapon" Name="SecurityBaton" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <smeltable>true</smeltable>
+        <costList>
+            <Steel>15</Steel>
+        </costList>
+		<statBases>
+            <MarketValue>20</MarketValue>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <weaponTags>
+            <li>MedievalMeleeDecent</li>
+            <li>MedievalShieldValidSidearm</li>
+            <li>Baton</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>1.5</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.5</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtWeaponMelee</nameMaker>
+                <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+                <minQualityForArtistic>Excellent</minQualityForArtistic>
+            </li>
+        </comps>
+	</ThingDef>
+    
+    <ThingDef ParentName="SecurityBaton">
+        <defName>TGSecurityBatonLeft</defName>
+		<label>security baton left</label>
+		<description>security baton left</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/TGLeftVibroknuckler</texPath>
+			<texPath>Things/Item/Equipment/WeaponMelee/TGSecurityBatonLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+    </ThingDef>
+  
+    <ThingDef ParentName="SecurityBaton">
+        <defName>TGSecurityBatonRight</defName>
+		<label>security baton right</label>
+		<description>security baton right</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/TGSecurityBatonRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+  
+    <ThingDef ParentName="BaseMeleeWeapon" Name="Vibroknuckler" Abstract="True">
         <techLevel>Spacer</techLevel>
         <costList>
             <Steel>10</Steel>
@@ -93,6 +162,7 @@
             <li>TGVibroknuckler</li>
             <li>NeolithicMeleeDecent</li>
             <li>MedievalShieldValidSidearm</li>
+            <li>Knife</li>
         </weaponTags>
         <tools>
             <li>
@@ -115,8 +185,19 @@
             </li>
         </comps>
 	</ThingDef>
+  
+    <ThingDef ParentName="Vibroknuckler">
+        <defName>TGLeftVibroknuckler</defName>
+		<label>left vibroknuckler</label>
+		<description>left vibroknuckler</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/TGLeftVibroknuckler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+    </ThingDef>
     
-    <ThingDef ParentName="BaseMeleeWeapon">
+    <ThingDef ParentName="Vibroknuckler">
         <defName>TGRightVibroknuckler</defName>
 		<label>right vibroknuckler</label>
 		<description>right vibroknuckler</description>
@@ -125,30 +206,76 @@
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-        <techLevel>Spacer</techLevel>
+	</ThingDef>
+  
+    <ThingDef ParentName="BaseMeleeWeapon">
+        <defName>TGGaffiStick</defName>
+		<label>gaffi stick</label>
+		<description>gaffi stick</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/TGGaffiStick</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+        <techLevel>Medieval</techLevel>
+        <costStuffCount>5</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
         <costList>
-            <Steel>10</Steel>
+            <WoodLog>5</WoodLog>
+            <Steel>15</Steel>
         </costList>
 		<statBases>
-            <MarketValue>200</MarketValue>
-			<WorkToMake>5500</WorkToMake>
-			<Mass>0.5</Mass>
-			<MaxHitPoints>250</MaxHitPoints>
+            <MarketValue>60</MarketValue>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>5</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
 		</statBases>
 		<equippedStatOffsets>
-			<MeleeDodgeChance>0.25</MeleeDodgeChance>
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<HuntingStealth>0.1</HuntingStealth>
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
 		</equippedStatOffsets>
+		<equippedAngleOffset>-65</equippedAngleOffset>
         <recipeMaker>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+            </recipeUsers>
         </recipeMaker>
         <weaponTags>
-            <li>TGVibroknuckler</li>
-            <li>NeolithicMeleeDecent</li>
+            <li>TGTGGaffiStick</li>
+            <li>MedievalMeleeAdvanced</li>
             <li>MedievalShieldValidSidearm</li>
         </weaponTags>
         <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>20</power>
+                <armorPenetration>0.50</armorPenetration>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
             <li>
                 <label>edge</label>
                 <capacities>
