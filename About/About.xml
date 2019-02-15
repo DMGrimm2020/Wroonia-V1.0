@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Wroonia</name>
-	<author>Tgrimm92</author>
-	<targetVersion>0.19.2009</targetVersion>
-		<url>https://github.com/tgrimabc</url>
+	<author>TGrimm92</author>
+  	<supportedVersions>
+    	<li>1.0</li>
+  	</supportedVersions>
+	<url>https://github.com/tgrimabc</url>
 	<description>Wroonia are wealthy, fun-loving, and deeply spiritual. Wroonians loved travel both sea and in space. They were part of Pantoran race.
 	
 	ComfyTemperature (-100,28)
